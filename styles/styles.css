@@ -266,25 +266,23 @@ body {
 
 /* =========================================================== */
 .is-hidden {
-    position: absolute;
-    z-index: -1;
+    
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
 }
-
+/* 
 .visually-hidden {
     position: absolute;
     white-space: nowrap;
-    width: 1px;
-    height: 1px;
+   
     overflow: hidden;
     border: 0;
     padding: 0;
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
     margin: -1px;
-}
+} */
 
 p, 
 h1, 
@@ -329,6 +327,12 @@ img {
     border-color: red;
 }
 
+.radio {
+    widows: 132px;
+    height: 136px;
+    background-color: #9CBE8F;
+}
+
 /* ===================================================================== */
 
 .backdrop {
@@ -369,7 +373,7 @@ img {
 }
 
 .header-modal__ice-cream {
-    width: 130px;
+    width: 132px;
     height: 136.4px;
     display: flex;
     flex-wrap: wrap;
@@ -382,7 +386,7 @@ img {
 }
 
 .header-modal__ice-coffee {
-    width: 130px;
+    width: 132px;
     height: 136.4px;
     display: flex;
     flex-wrap: wrap;
@@ -399,7 +403,7 @@ img {
 }
 
 .header-modal__milkshake {
-    width: 130px;
+    width: 132px;
     height: 136.4px;
     display: flex;
     flex-wrap: wrap;
@@ -412,33 +416,33 @@ img {
 }
 .header-modal__ball-ice-cream {
     position: absolute;
-    bottom: 40%;
-    left: 1%;
+    bottom: 41%;
+    /* left: 2%; */
     border: 2px solid #9CBE8F;
     background-color: #9CBE8F;
     border-radius: 50%;
-    width: 128px;
+    width: 132px;
     height: 132px;
 }
 .header-modal__ball-ice-coffee {
     position: absolute;
-    bottom: 39%;
-    left: 1%;
+    bottom: 40%;
+    /* left: 2%; */
     border: 2px solid #F8D24E;
     background-color: #F8D24E;
     border-radius: 50%;
-    width: 128px;
+    width: 132px;
     height: 132px;
 }
 
 .header-modal__ball-milkshake {
     position: absolute;
-    bottom: 41%;
-    left: 1%;
+    bottom: 42%;
+    /* left: 2%; */
     border: 2px solid #D5753F;
     background-color: #D5753F;
     border-radius: 50%;
-    width: 128px;
+    width: 132px;
     height: 132px;
 }
 
